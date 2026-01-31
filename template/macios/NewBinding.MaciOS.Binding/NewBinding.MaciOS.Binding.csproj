@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks>net10.0-ios;net10.0-maccatalyst</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
@@ -21,6 +21,8 @@
   <ItemGroup>
     <XcodeProject Include="../native/NewBinding/NewBinding.xcodeproj">
       <SchemeName>NewBinding</SchemeName>
+      <SharpieNamespace>ChartsMaciOS</SharpieNamespace>
+      <SharpieBind>true</SharpieBind>
       <!-- Metadata applicable to @(NativeReference) will be used if set, otherwise the following defaults will be used:
       <Kind>Framework</Kind>
       <SmartLink>true</SmartLink>
