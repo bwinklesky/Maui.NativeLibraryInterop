@@ -11,5 +11,7 @@ namespace NewBindingMaciOS
 		[Static]
 		[Export ("getStringWithMyString:")]
 		string GetString (string myString);
+
+
 	}
 }

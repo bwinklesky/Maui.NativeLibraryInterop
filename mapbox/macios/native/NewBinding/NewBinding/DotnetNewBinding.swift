@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+import MapboxMaps
 
 @objc(DotnetNewBinding)
 public class DotnetNewBinding : NSObject
