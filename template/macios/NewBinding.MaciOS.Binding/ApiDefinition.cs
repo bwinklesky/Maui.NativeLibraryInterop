@@ -3,6 +3,7 @@ using Foundation;
 namespace NewBindingMaciOS
 {
 	// @interface DotnetNewBinding : NSObject
+    [Protocol]
 	[BaseType (typeof(NSObject))]
 	interface DotnetNewBinding
 	{
