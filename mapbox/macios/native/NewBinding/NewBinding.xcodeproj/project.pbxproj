@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		83E34F572C21CB2B008AA950 /* NewBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E34F562C21CB2B008AA950 /* NewBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83E34F5E2C21CC53008AA950 /* DotnetNewBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E34F5D2C21CC53008AA950 /* DotnetNewBinding.swift */; };
-		8B0F63242F36890400BDB000 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F63212F36890400BDB000 /* README.md */; };
-		8B0F63252F36890400BDB000 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F631D2F36890400BDB000 /* LICENSE.md */; };
-		8B0F632A2F36890B00BDB000 /* MapboxCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F631E2F36890400BDB000 /* MapboxCommon.xcframework */; };
-		8B0F632B2F36890B00BDB000 /* MapboxCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F631E2F36890400BDB000 /* MapboxCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B0F632C2F36890D00BDB000 /* MapboxCoreMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F631F2F36890400BDB000 /* MapboxCoreMaps.xcframework */; };
-		8B0F632D2F36890D00BDB000 /* MapboxCoreMaps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F631F2F36890400BDB000 /* MapboxCoreMaps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B0F632E2F36890E00BDB000 /* MapboxMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F63202F36890400BDB000 /* MapboxMaps.xcframework */; };
-		8B0F632F2F36890E00BDB000 /* MapboxMaps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F63202F36890400BDB000 /* MapboxMaps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B0F63302F36890F00BDB000 /* Turf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F63222F36890400BDB000 /* Turf.xcframework */; };
-		8B0F63312F36890F00BDB000 /* Turf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F63222F36890400BDB000 /* Turf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B067E782F36A46A000791E2 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B067E712F36A46A000791E2 /* LICENSE.md */; };
+		8B067E792F36A46A000791E2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B067E752F36A46A000791E2 /* README.md */; };
+		8B067E7E2F36A471000791E2 /* MapboxCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E722F36A46A000791E2 /* MapboxCommon.xcframework */; };
+		8B067E7F2F36A471000791E2 /* MapboxCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E722F36A46A000791E2 /* MapboxCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B067E802F36A472000791E2 /* MapboxCoreMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E732F36A46A000791E2 /* MapboxCoreMaps.xcframework */; };
+		8B067E812F36A472000791E2 /* MapboxCoreMaps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E732F36A46A000791E2 /* MapboxCoreMaps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B067E822F36A474000791E2 /* MapboxMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E742F36A46A000791E2 /* MapboxMaps.xcframework */; };
+		8B067E832F36A474000791E2 /* MapboxMaps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E742F36A46A000791E2 /* MapboxMaps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B067E842F36A476000791E2 /* Turf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E762F36A46A000791E2 /* Turf.xcframework */; };
+		8B067E852F36A476000791E2 /* Turf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B067E762F36A46A000791E2 /* Turf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +28,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8B0F63312F36890F00BDB000 /* Turf.xcframework in Embed Frameworks */,
-				8B0F632D2F36890D00BDB000 /* MapboxCoreMaps.xcframework in Embed Frameworks */,
-				8B0F632B2F36890B00BDB000 /* MapboxCommon.xcframework in Embed Frameworks */,
-				8B0F632F2F36890E00BDB000 /* MapboxMaps.xcframework in Embed Frameworks */,
+				8B067E852F36A476000791E2 /* Turf.xcframework in Embed Frameworks */,
+				8B067E812F36A472000791E2 /* MapboxCoreMaps.xcframework in Embed Frameworks */,
+				8B067E7F2F36A471000791E2 /* MapboxCommon.xcframework in Embed Frameworks */,
+				8B067E832F36A474000791E2 /* MapboxMaps.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,12 +42,12 @@
 		83E34F532C21CB2B008AA950 /* NewBinding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewBinding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E34F562C21CB2B008AA950 /* NewBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewBinding.h; sourceTree = "<group>"; };
 		83E34F5D2C21CC53008AA950 /* DotnetNewBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotnetNewBinding.swift; sourceTree = "<group>"; };
-		8B0F631D2F36890400BDB000 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		8B0F631E2F36890400BDB000 /* MapboxCommon.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = MapboxCommon.xcframework; sourceTree = "<group>"; };
-		8B0F631F2F36890400BDB000 /* MapboxCoreMaps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = MapboxCoreMaps.xcframework; sourceTree = "<group>"; };
-		8B0F63202F36890400BDB000 /* MapboxMaps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = MapboxMaps.xcframework; sourceTree = "<group>"; };
-		8B0F63212F36890400BDB000 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8B0F63222F36890400BDB000 /* Turf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = Turf.xcframework; sourceTree = "<group>"; };
+		8B067E712F36A46A000791E2 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		8B067E722F36A46A000791E2 /* MapboxCommon.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = MapboxCommon.xcframework; sourceTree = "<group>"; };
+		8B067E732F36A46A000791E2 /* MapboxCoreMaps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = MapboxCoreMaps.xcframework; sourceTree = "<group>"; };
+		8B067E742F36A46A000791E2 /* MapboxMaps.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = MapboxMaps.xcframework; sourceTree = "<group>"; };
+		8B067E752F36A46A000791E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B067E762F36A46A000791E2 /* Turf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZR2MEM28:Mapbox, Inc."; lastKnownFileType = wrapper.xcframework; path = Turf.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0F63302F36890F00BDB000 /* Turf.xcframework in Frameworks */,
-				8B0F632E2F36890E00BDB000 /* MapboxMaps.xcframework in Frameworks */,
-				8B0F632C2F36890D00BDB000 /* MapboxCoreMaps.xcframework in Frameworks */,
-				8B0F632A2F36890B00BDB000 /* MapboxCommon.xcframework in Frameworks */,
+				8B067E842F36A476000791E2 /* Turf.xcframework in Frameworks */,
+				8B067E822F36A474000791E2 /* MapboxMaps.xcframework in Frameworks */,
+				8B067E802F36A472000791E2 /* MapboxCoreMaps.xcframework in Frameworks */,
+				8B067E7E2F36A471000791E2 /* MapboxCommon.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +68,10 @@
 		83E34F492C21CB2B008AA950 = {
 			isa = PBXGroup;
 			children = (
+				8B067E772F36A46A000791E2 /* artifacts */,
 				83E34F552C21CB2B008AA950 /* NewBinding */,
 				8B0F63132F36883500BDB000 /* Frameworks */,
 				83E34F542C21CB2B008AA950 /* Products */,
-				8B0F63232F36890400BDB000 /* artifacts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,24 +92,24 @@
 			path = NewBinding;
 			sourceTree = "<group>";
 		};
+		8B067E772F36A46A000791E2 /* artifacts */ = {
+			isa = PBXGroup;
+			children = (
+				8B067E712F36A46A000791E2 /* LICENSE.md */,
+				8B067E722F36A46A000791E2 /* MapboxCommon.xcframework */,
+				8B067E732F36A46A000791E2 /* MapboxCoreMaps.xcframework */,
+				8B067E742F36A46A000791E2 /* MapboxMaps.xcframework */,
+				8B067E752F36A46A000791E2 /* README.md */,
+				8B067E762F36A46A000791E2 /* Turf.xcframework */,
+			);
+			path = artifacts;
+			sourceTree = "<group>";
+		};
 		8B0F63132F36883500BDB000 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8B0F63232F36890400BDB000 /* artifacts */ = {
-			isa = PBXGroup;
-			children = (
-				8B0F631D2F36890400BDB000 /* LICENSE.md */,
-				8B0F631E2F36890400BDB000 /* MapboxCommon.xcframework */,
-				8B0F631F2F36890400BDB000 /* MapboxCoreMaps.xcframework */,
-				8B0F63202F36890400BDB000 /* MapboxMaps.xcframework */,
-				8B0F63212F36890400BDB000 /* README.md */,
-				8B0F63222F36890400BDB000 /* Turf.xcframework */,
-			);
-			path = artifacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0F63242F36890400BDB000 /* README.md in Resources */,
-				8B0F63252F36890400BDB000 /* LICENSE.md in Resources */,
+				8B067E782F36A46A000791E2 /* LICENSE.md in Resources */,
+				8B067E792F36A46A000791E2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
