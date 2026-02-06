@@ -4,6 +4,7 @@ using Foundation;
 namespace GoogleCast
 {
 	// @interface GoogleCastManager : NSObject
+    [Protocol]
 	[BaseType (typeof(NSObject))]
 	interface GoogleCastManager
 	{
@@ -24,6 +25,6 @@ namespace GoogleCast
 	[BaseType (typeof(UIKit.UIButton))]
 	interface GoogleCastButton
 	{
-		
+
 	}
 }
